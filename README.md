@@ -1,4 +1,4 @@
-# Correction spacing: eqnarray(*), aligned, alignedat, and gathered.
+# Correction Spacings: eqnarray(*), aligned, alignedat, and gathered
 
 ## Descriptions
 
