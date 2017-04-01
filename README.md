@@ -23,10 +23,15 @@ It is a correction in the horizontal spacing of the alignment.
  * latexorg: original behavior of LaTeX/amsmath package
  * fleqn: corresponds to class file and/or amsmath package's fleqn option
 
+## File with Original Definitions
+
+ * eqnarray: latex.ltx
+ * \start@aligned and gathered: amsmath.sty
+
 ## Author
 
-Yuwsuke KIEDA
+Yuwsuke Kieda
 
 ## License
 
-the LaTeX Project Public License (1.3c)
+BSD 2-Clause License
