@@ -2,7 +2,7 @@
 
 ## Descriptions
 
-We will fix some expression environments spacing.
+We will realignment some expression environments spacing.
 It is a correction in the horizontal spacing of the alignment.
 
 ## Version
