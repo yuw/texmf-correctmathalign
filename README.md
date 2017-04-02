@@ -14,7 +14,7 @@ It is a correction in the horizontal spacing of the alignment.
 ### Preamble
 
 ```
-\usepackage{amsmath}% optional: if you use aligned, alignedat or gathered env.
+\usepackage{amsmath}% optional: if you use aligned, alignedat, or gathered environments
 \usepackage{correctmathalign}
 ```
 
