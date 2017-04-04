@@ -7,7 +7,7 @@ It is a correction in the horizontal spacing of the alignment.
 
 ## Version
 
-1.0
+1.1
 
 ## Usage
 
@@ -18,6 +18,12 @@ It is a correction in the horizontal spacing of the alignment.
 \usepackage{correctmathalign}
 ```
 
+#### Remark
+
+The problem with the amsmath package (2017/11/05 2.16a) was solved by the original. See the options \texttt{alignedleftspaceyes}, \texttt{alignedleftspaceno}, and \texttt{alignedleftspaceyesifneg}.
+We dealt with versions prior to amsmath.sty (dtx) 2016/03/10 v2.15b.
+
+
 ### Options
 
  * latexorg: original behavior of LaTeX/amsmath package
@@ -26,7 +32,7 @@ It is a correction in the horizontal spacing of the alignment.
 ## File with Original Definitions
 
  * eqnarray: latex.ltx
- * \start@aligned and gathered: amsmath.sty
+ * \start@aligned and gathered: amsmath.sty (before 2016/03/10 v2.15b)
 
 ## Author
 

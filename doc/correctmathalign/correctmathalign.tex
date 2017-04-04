@@ -8,7 +8,7 @@
 
 \title{Correction Spacings: eqnarray(*), aligned, alignedat, and gathered}
 \author{Yuwsuke Kieda}
-\date{2017/04/02 v1.0}
+\date{2017/04/04 v1.1}
 
 \renewcommand\labelitemi{\textendash}
 
@@ -31,6 +31,9 @@ It is a correction in the horizontal spacing of the alignment.
 
 Remark: amsmath package is optional: if you use aligned, alignedat, or gathered environments.
 
+Remark: The problem with the amsmath package (2016/11/05 2.16a) was solved by the original. See the options \texttt{alignedleftspaceyes}, \texttt{alignedleftspaceno}, and \texttt{alignedleftspaceyesifneg}.
+We dealt with versions prior to 2016/03/10 v2.15b.
+
 \subsection{Options}
 
 \begin{itemize}
@@ -42,7 +45,7 @@ Remark: amsmath package is optional: if you use aligned, alignedat, or gathered 
 
 \begin{itemize}
  \item \verb!eqnarray!: latex.ltx
- \item \verb!\start@aligned! and gathered: amsmath.sty
+ \item \verb!\start@aligned! and \verb!\gathered!: amsmath.sty (before 2016/03/10 v2.15b)
 \end{itemize}
 
 \section{License}
@@ -51,7 +54,7 @@ BSD 2-Clause License
 
 \section{Samples}
 
-Cf.\ defaults of \LaTeX{}\ and \texttt{amsmath.sty} (Figures~\ref{fig1} and~\ref{fig2}).
+Cf.\ defaults of \LaTeX{}\ and \texttt{amsmath.sty} before 2016/03/10 v2.15b (Figures~\ref{fig1} and~\ref{fig2}).
 
 \setbox9\hbox{Figure 1: \texttt{eqnarray*} environment}%
 \setbox8\hbox{Figure 2: \texttt{aligned} environment}%
@@ -66,7 +69,7 @@ Cf.\ defaults of \LaTeX{}\ and \texttt{amsmath.sty} (Figures~\ref{fig1} and~\ref
  \begin{minipage}[t]{\wd8}
   \centering
   \includegraphics{aligned-org.pdf}
-  \caption{\texttt{aligned} environment by \texttt{amsmath.sty} default.}
+  \caption{\texttt{aligned} environment by \texttt{amsmath.sty} default (before 2016/03/10 v2.15b).}
   \label{fig2}
  \end{minipage}
 \end{figure}
